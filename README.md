@@ -51,7 +51,8 @@ Guvi_Banking_system/
 └── pom.xml
 ```
 ##HOME SCREEN
-![Home](imgs/HOME.png)
+
+![Home](Imgs/HOME.png)
 
 ---
 
