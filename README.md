@@ -50,46 +50,8 @@ Guvi_Banking_system/
 ├── mvnw.cmd
 └── pom.xml
 ```
+##HOME SCREEN
+![Home](imgs/HOME.png)
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-* Java Development Kit (JDK) 11 or higher
-* Apache Maven
-
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/mbsurya191222004/Guvi_Banking_system.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd Guvi_Banking_system
-   ```
-
-3. Build the project using Maven:
-
-   ```bash
-   mvn clean install
-   ```
-
-4. Run the application:
-
-   ```bash
-   mvn exec:java
-   ```
-
----
-
-## 📄 Usage
-
-Upon running the application, users are presented with a menu to choose from various banking operations. The system prompts for necessary inputs and displays appropriate messages based on the actions performed.
-
----
