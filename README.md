@@ -6,7 +6,7 @@ A comprehensive banking application developed in Java, designed to simulate real
 
 ## 🧠 Project Overview
 
-The Guvi Banking System is a console-based application that emulates essential banking functionalities. It provides a user-friendly interface for managing bank accounts and performing transactions, making it an ideal project for understanding object-oriented programming concepts and Java development.
+This Banking System is a  application that emulates essential banking functionalities. It provides a user-friendly interface for managing bank accounts and performing transactions, making it an ideal project for understanding object-oriented programming concepts and Java development.
 
 ---
 
@@ -15,15 +15,13 @@ The Guvi Banking System is a console-based application that emulates essential b
 * **Account Management**: Create and manage multiple bank accounts.
 * **Transactions**: Deposit and withdraw funds with real-time balance updates.
 * **Transaction History**: View detailed transaction reports.
-* **Interest Calculation**: Apply interest rates based on account types.
-* **Account Deletion**: Close accounts and remove associated data.
 
 ---
 
 ## 🛠️ Technologies Used
 
 * **Programming Language**: Java
-* **Development Environment**: Any Java IDE (e.g., IntelliJ IDEA, Eclipse)
+* **Development Environment**: IntelliJ IDEA
 * **Build Tool**: Maven
 
 ---
