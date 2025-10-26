@@ -94,9 +94,7 @@ public class TransactionController {
             this.amount = amount;
             this.transactionType = transactionType;
         }
-
         public Integer getTransactionId() { return transactionId; }
-
         // Combine sender and receiver for table display
         public String getAccountNumbers() { return senderAcc + " → " + receiverAcc; }
 
