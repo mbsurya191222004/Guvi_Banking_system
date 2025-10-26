@@ -1,11 +1,14 @@
 package com.example.banking_system;
 import com.example.banking_system.db.MainDB;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
 import javafx.scene.control.Alert;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+
+import static com.example.banking_system.Main.ShowHome;
 
 public class CustomerFormController {
 
@@ -75,6 +78,10 @@ public class CustomerFormController {
         name.clear();
         phone.clear();
         pan.clear();
+    }
+
+    public void goHome(ActionEvent actionEvent) {
+        ShowHome();
     }
 }
 

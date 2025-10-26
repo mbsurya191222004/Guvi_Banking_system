@@ -78,6 +78,40 @@ public class Main extends Application {
             }
         }
     }
+    public static void ShowAddAccount(){
+        try{
+            FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("AddAccount.fxml"));
+            Scene scene = new Scene(fxmlLoader.load());
+            stage.setTitle("AddAccount");
+            stage.setScene(scene);
+        } catch (Exception e) {
+            try{
+                FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("Error.fxml"));
+                Scene scene = new Scene(fxmlLoader.load());
+                stage.setTitle("Hello!");
+                stage.setScene(scene);
+            } catch (Exception ex) {
+                throw new RuntimeException(ex);
+            }
+        }
+    }
+    public static void ShowAddTransaction(){
+        try{
+            FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("AddTransaction.fxml"));
+            Scene scene = new Scene(fxmlLoader.load());
+            stage.setTitle("AddTransaction");
+            stage.setScene(scene);
+        } catch (Exception e) {
+            try{
+                FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("Error.fxml"));
+                Scene scene = new Scene(fxmlLoader.load());
+                stage.setTitle("Hello!");
+                stage.setScene(scene);
+            } catch (Exception ex) {
+                throw new RuntimeException(ex);
+            }
+        }
+    }
 
     public static void ShowHome(){
         try{
@@ -101,7 +135,7 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         this.stage = stage;
-        ShowAddCustomer();
+        ShowHome();
         stage.show();
     }
 }

@@ -18,4 +18,16 @@ public class HomeController {
     public void goToTransactions(ActionEvent actionEvent) {
         ShowTransactions();
     }
+
+    public void goToAddCustomers(ActionEvent actionEvent) {
+        ShowAddCustomer();
+    }
+
+    public void goToAddAccounts(ActionEvent actionEvent) {
+        ShowAddAccount();
+    }
+
+    public void goToAddTransactions(ActionEvent actionEvent) {
+        ShowAddTransaction();
+    }
 }
