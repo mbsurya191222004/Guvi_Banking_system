@@ -3,6 +3,7 @@ package com.example.banking_system;
 import com.example.banking_system.db.MainDB;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
@@ -11,6 +12,8 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import java.math.BigDecimal;
 import java.sql.Connection;
 import java.sql.ResultSet;
+
+import static com.example.banking_system.Main.ShowHome;
 
 public class AccountController {
 
@@ -67,6 +70,10 @@ public class AccountController {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    public void goHome(ActionEvent actionEvent) {
+        ShowHome();
     }
 
     // Model class for accounts
