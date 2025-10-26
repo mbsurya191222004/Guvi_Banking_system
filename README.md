@@ -93,13 +93,3 @@ Guvi_Banking_system/
 Upon running the application, users are presented with a menu to choose from various banking operations. The system prompts for necessary inputs and displays appropriate messages based on the actions performed.
 
 ---
-
-## 🧪 Testing
-
-Unit tests are located in the `src/test/java` directory. To run the tests:
-
-```bash
-mvn test
-```
-
----
