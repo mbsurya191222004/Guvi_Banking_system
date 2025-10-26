@@ -47,11 +47,28 @@ public class Main extends Application {
             }
         }
     }
+    public static void ShowAccounts(Stage stage){
+        try{
+            FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("Accounts.fxml"));
+            Scene scene = new Scene(fxmlLoader.load());
+            stage.setTitle("Accounts");
+            stage.setScene(scene);
+        } catch (Exception e) {
+            try{
+                FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("Error.fxml"));
+                Scene scene = new Scene(fxmlLoader.load());
+                stage.setTitle("Hello!");
+                stage.setScene(scene);
+            } catch (Exception ex) {
+                throw new RuntimeException(ex);
+            }
+        }
+    }
 
 
     @Override
     public void start(Stage stage) throws IOException {
-        ShowTransactions(stage);
+        ShowAccounts(stage);
         stage.show();
     }
 }
