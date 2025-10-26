@@ -50,9 +50,18 @@ Guvi_Banking_system/
 ├── mvnw.cmd
 └── pom.xml
 ```
-##HOME SCREEN
+## HOME SCREEN
 
 ![Home](Imgs/HOME.png)
 
 ---
+## CREATE SCREEN
 
+![CREATE](Imgs/CREATE.png)
+
+---
+## Retrievel SCREEN
+
+![Retrievel](Imgs/RETRIVAL.png)
+
+---
